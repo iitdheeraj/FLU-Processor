@@ -1,0 +1,200 @@
+                      SYNTHESISE REPORT 
+
+Group members
+Dheeraj Kumar 19110117
+Shubham Kewat 19110121
+Rajan Patel 19110129
+Pranav Kanwat 19110131
+
+1.  ADDER
+  1. Slice Logic
+--------------
+
++-------------------------+------+-------+-----------+-------+
+|        Site Type        | Used | Fixed | Available | Util% |
++-------------------------+------+-------+-----------+-------+
+| Slice LUTs              |  509 |     0 |     20800 |  2.45 |
+|   LUT as Logic          |  509 |     0 |     20800 |  2.45 |
+|   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
+| Slice Registers         |  183 |     0 |     41600 |  0.44 |
+|   Register as Flip Flop |  183 |     0 |     41600 |  0.44 |
+|   Register as Latch     |    0 |     0 |     41600 |  0.00 |
+| F7 Muxes                |    0 |     0 |     16300 |  0.00 |
+| F8 Muxes                |    0 |     0 |      8150 |  0.00 |
++-------------------------+------+-------+-----------+-------+
+2. Slice Logic Distribution
+---------------------------
+
++-------------------------------------------+------+-------+-----------+-------+
+|                 Site Type                 | Used | Fixed | Available | Util% |
++-------------------------------------------+------+-------+-----------+-------+
+| Slice                                     |  148 |     0 |      8150 |  1.82 |
+|   SLICEL                                  |   90 |     0 |           |       |
+|   SLICEM                                  |   58 |     0 |           |       |
+| LUT as Logic                              |  509 |     0 |     20800 |  2.45 |
+|   using O5 output only                    |    0 |       |           |       |
+|   using O6 output only                    |  420 |       |           |       |
+|   using O5 and O6                         |   89 |       |           |       |
+| LUT as Memory                             |    0 |     0 |      9600 |  0.00 |
+|   LUT as Distributed RAM                  |    0 |     0 |           |       |
+|   LUT as Shift Register                   |    0 |     0 |           |       |
+| LUT Flip Flop Pairs                       |  104 |     0 |     20800 |  0.50 |
+|   fully used LUT-FF pairs                 |   33 |       |           |       |
+|   LUT-FF pairs with one unused LUT output |   68 |       |           |       |
+|   LUT-FF pairs with one unused Flip Flop  |   70 |       |           |       |
+| Unique Control Sets                       |    7 |       |           |       |
++-------------------------------------------+------+-------+-----------+-------+
+
+2. SUBTRACTOR
+ 1. Slice Logic
+--------------
+
++-------------------------+------+-------+-----------+-------+
+|        Site Type        | Used | Fixed | Available | Util% |
++-------------------------+------+-------+-----------+-------+
+| Slice LUTs              |  509 |     0 |     20800 |  2.45 |
+|   LUT as Logic          |  509 |     0 |     20800 |  2.45 |
+|   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
+| Slice Registers         |  183 |     0 |     41600 |  0.44 |
+|   Register as Flip Flop |  183 |     0 |     41600 |  0.44 |
+|   Register as Latch     |    0 |     0 |     41600 |  0.00 |
+| F7 Muxes                |    0 |     0 |     16300 |  0.00 |
+| F8 Muxes                |    0 |     0 |      8150 |  0.00 |
++-------------------------+------+-------+-----------+-------+
+
+2. Slice Logic Distribution
+---------------------------
+
++-------------------------------------------+------+-------+-----------+-------+
+|                 Site Type                 | Used | Fixed | Available | Util% |
++-------------------------------------------+------+-------+-----------+-------+
+| Slice                                     |  148 |     0 |      8150 |  1.82 |
+|   SLICEL                                  |   90 |     0 |           |       |
+|   SLICEM                                  |   58 |     0 |           |       |
+| LUT as Logic                              |  509 |     0 |     20800 |  2.45 |
+|   using O5 output only                    |    0 |       |           |       |
+|   using O6 output only                    |  420 |       |           |       |
+|   using O5 and O6                         |   89 |       |           |       |
+| LUT as Memory                             |    0 |     0 |      9600 |  0.00 |
+|   LUT as Distributed RAM                  |    0 |     0 |           |       |
+|   LUT as Shift Register                   |    0 |     0 |           |       |
+| LUT Flip Flop Pairs                       |  104 |     0 |     20800 |  0.50 |
+|   fully used LUT-FF pairs                 |   33 |       |           |       |
+|   LUT-FF pairs with one unused LUT output |   68 |       |           |       |
+|   LUT-FF pairs with one unused Flip Flop  |   70 |       |           |       |
+| Unique Control Sets                       |    7 |       |           |       |
++-------------------------------------------+------+-------+-----------+-------+
+
+3. MULTIPLIER
+1. Slice Logic
+--------------
+
++-------------------------+------+-------+-----------+-------+
+|        Site Type        | Used | Fixed | Available | Util% |
++-------------------------+------+-------+-----------+-------+
+| Slice LUTs              |   73 |     0 |     20800 |  0.35 |
+|   LUT as Logic          |   73 |     0 |     20800 |  0.35 |
+|   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
+| Slice Registers         |    0 |     0 |     41600 |  0.00 |
+|   Register as Flip Flop |    0 |     0 |     41600 |  0.00 |
+|   Register as Latch     |    0 |     0 |     41600 |  0.00 |
+| F7 Muxes                |    0 |     0 |     16300 |  0.00 |
+| F8 Muxes                |    0 |     0 |      8150 |  0.00 |
++-------------------------+------+-------+-----------+-------+
+2. Slice Logic Distribution
+---------------------------
+
++--------------------------+------+-------+-----------+-------+
+|         Site Type        | Used | Fixed | Available | Util% |
++--------------------------+------+-------+-----------+-------+
+| Slice                    |   27 |     0 |      8150 |  0.33 |
+|   SLICEL                 |   23 |     0 |           |       |
+|   SLICEM                 |    4 |     0 |           |       |
+| LUT as Logic             |   73 |     0 |     20800 |  0.35 |
+|   using O5 output only   |    0 |       |           |       |
+|   using O6 output only   |   52 |       |           |       |
+|   using O5 and O6        |   21 |       |           |       |
+| LUT as Memory            |    0 |     0 |      9600 |  0.00 |
+|   LUT as Distributed RAM |    0 |     0 |           |       |
+|   LUT as Shift Register  |    0 |     0 |           |       |
+| LUT Flip Flop Pairs      |    0 |     0 |     20800 |  0.00 |
+| Unique Control Sets      |    0 |       |           |       |
++--------------------------+------+-------+-----------+-------+
+
+4. DIVIDER
+1. Slice Logic
+--------------
+
++-------------------------+------+-------+-----------+-------+
+|        Site Type        | Used | Fixed | Available | Util% |
++-------------------------+------+-------+-----------+-------+
+| Slice LUTs              | 1779 |     0 |     20800 |  8.55 |
+|   LUT as Logic          | 1779 |     0 |     20800 |  8.55 |
+|   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
+| Slice Registers         |    0 |     0 |     41600 |  0.00 |
+|   Register as Flip Flop |    0 |     0 |     41600 |  0.00 |
+|   Register as Latch     |    0 |     0 |     41600 |  0.00 |
+| F7 Muxes                |    0 |     0 |     16300 |  0.00 |
+| F8 Muxes                |    0 |     0 |      8150 |  0.00 |
++-------------------------+------+-------+-----------+-------+
+2. Slice Logic Distribution
+---------------------------
+
++--------------------------+------+-------+-----------+-------+
+|         Site Type        | Used | Fixed | Available | Util% |
++--------------------------+------+-------+-----------+-------+
+| Slice                    |  517 |     0 |      8150 |  6.34 |
+|   SLICEL                 |  355 |     0 |           |       |
+|   SLICEM                 |  162 |     0 |           |       |
+| LUT as Logic             | 1779 |     0 |     20800 |  8.55 |
+|   using O5 output only   |    0 |       |           |       |
+|   using O6 output only   | 1435 |       |           |       |
+|   using O5 and O6        |  344 |       |           |       |
+| LUT as Memory            |    0 |     0 |      9600 |  0.00 |
+|   LUT as Distributed RAM |    0 |     0 |           |       |
+|   LUT as Shift Register  |    0 |     0 |           |       |
+| LUT Flip Flop Pairs      |    0 |     0 |     20800 |  0.00 |
+| Unique Control Sets      |    0 |       |           |       |
++--------------------------+------+-------+-----------+-------+
+
+5. FLU PROCESSOR
+1. Slice Logic
+--------------
+
++-------------------------+------+-------+-----------+-------+
+|        Site Type        | Used | Fixed | Available | Util% |
++-------------------------+------+-------+-----------+-------+
+| Slice LUTs              | 2503 |     0 |     20800 | 12.03 |
+|   LUT as Logic          | 2503 |     0 |     20800 | 12.03 |
+|   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
+| Slice Registers         |  248 |     0 |     41600 |  0.60 |
+|   Register as Flip Flop |  248 |     0 |     41600 |  0.60 |
+|   Register as Latch     |    0 |     0 |     41600 |  0.00 |
+| F7 Muxes                |    0 |     0 |     16300 |  0.00 |
+| F8 Muxes                |    0 |     0 |      8150 |  0.00 |
++-------------------------+------+-------+-----------+-------+
+2. Slice Logic Distribution
+---------------------------
+
++-------------------------------------------+------+-------+-----------+-------+
+|                 Site Type                 | Used | Fixed | Available | Util% |
++-------------------------------------------+------+-------+-----------+-------+
+| Slice                                     |  735 |     0 |      8150 |  9.02 |
+|   SLICEL                                  |  470 |     0 |           |       |
+|   SLICEM                                  |  265 |     0 |           |       |
+| LUT as Logic                              | 2503 |     0 |     20800 | 12.03 |
+|   using O5 output only                    |    0 |       |           |       |
+|   using O6 output only                    | 2087 |       |           |       |
+|   using O5 and O6                         |  416 |       |           |       |
+| LUT as Memory                             |    0 |     0 |      9600 |  0.00 |
+|   LUT as Distributed RAM                  |    0 |     0 |           |       |
+|   LUT as Shift Register                   |    0 |     0 |           |       |
+| LUT Flip Flop Pairs                       |  217 |     0 |     20800 |  1.04 |
+|   fully used LUT-FF pairs                 |   18 |       |           |       |
+|   LUT-FF pairs with one unused LUT output |  198 |       |           |       |
+|   LUT-FF pairs with one unused Flip Flop  |  199 |       |           |       |
+| Unique Control Sets                       |   18 |       |           |       |
++-------------------------------------------+------+-------+-----------+-------+
+
+We use ip 10.0.145.89 for vivado synthesis.
+
